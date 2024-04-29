@@ -1,0 +1,54 @@
+
+
+----
+create a document on how some of the features works, especialy those that dont have a button that will run a script to do those, like creating a free voucher or complimenatry vouchers, better yet just create a menu with a button that will hadle those, thats better than a guide documents :)
+---
+[ allow user made ads ] seem not working or implemented, as user self created account option is not diasabled if that unchcked
+---
+give better name [ Enable Wifi-Radius auto user creation? ] somethig like [ Enable Wifi-Radius vouchers auto creation? ] or [ Enable Wifi-Radius auto user voucher creation? ]
+------
+1) complementary voucher sort/selection seem broken [ seller menu]
+2) voucher of cost zero and or complementary are calculated in voucher types , [ {manual vouchers} voucher tracking], if they are the only left of same attributes/properties : dont remember if i intended this to be when was creating it, but reasonably shouldnt be there, but in greater scale of things it will only confuse system admin {when manually updating voucher types or checking for available non used voucher of different types} but never the seller due to filter restriction placed in the seller menu when retriving voucher types to sell unless over fifty of same such vouchers are manually created by admin
+3) allow creation of same vouchers with different hotspot location restrictions, or complete development of single voucher being able to have multiple applicable hotspot locations
+4) issue with voucher branding from external link //https://garyrafferty.com/software/Tainted-Canvas/  //https://salesforce.stackexchange.com/questions/202812/failed-to-execute-todataurl-on-htmlcanvaselement-tainted-canvases-may-not-b
+
+--------
+--> have warning to keep wallpapers and othe hotspot exempted links to http:// if hotspot does not have https certificate or wallgarden wont exempt links//in setup ui when implementing it
+
+
+
+--->
+
+have a way to allow voucher selling disounts to only apply to voucher selling and not hotspot ads posting.
+
+but if discounts are small not like 50% like i used to give, then it does matter.
+
+you can also make system apply discounts directly to every voucher sold automatically, vs how i used to give 50% more credits per recharge, this mean this time if user pays r100 to buy credits they get 100 credits, and  system will only charge 10% less per every voucher sold, or whatever amount specified in user account ---- i prefer this--- also give user something that tells them discounts applied
+
+--------
+
+problem when sending recharge to demo seller account from demo distributor account, works fine if u create a new seller account from demo distributor account
+
+
+-------
+consider using sendgrid email provider
+
+------
+
+dark newumorph skin, home walppaper selectiion not working as inteneded.
+
+------
+
+upload image base64, handle when user want to change base 64 uploaded image, just track it by upload form id ===FIXED====
+
+
+-----
+
+if(req.query.user_type != 'Server Admin' ){ ,, check if works
+
+----
+
+classic skins ads diplay size require adjusting
+
+-----
+
